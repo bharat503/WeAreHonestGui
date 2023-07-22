@@ -11,10 +11,15 @@ import {CdkTableModule} from '@angular/cdk/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { PaginationComponent } from './pagination/pagination.component';
+import { Pagination1Component } from './pagination1/pagination1.component';
+import { Pagination2Component } from './pagination2/pagination2.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    PaginationComponent
+    PaginationComponent,
+    Pagination1Component,
+    Pagination2Component
   ],
   imports: [
     BrowserModule,FormsModule,

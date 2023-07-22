@@ -1,0 +1,73 @@
+td{
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #3f51b5;
+    color: white;
+    
+}
+.Hightext{
+    text-align: left;
+}
+
+
+th{
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+   background-color: aqua;
+    
+   
+    
+}
+tr{
+    border-color: white;
+}
+// h1{
+//     font-family: Roboto,"Helvetica Neue",sans-serif;
+//     font-size: 14px;
+//     font-weight: 500;
+//     text-align: center; 
+     
+// }
+// .table{
+//     margin-top: 40px;
+//     margin-left: 300px;
+//     width: 900px;
+   
+// }
+.table-hover{
+    margin-top: 40px;
+    border-width: 3px;
+    border-style: solid;
+    
+    box-shadow: 10px 10px lightblue;
+}
+// .container{
+//     margin: 0px;
+//     padding: 0px;
+// }
+// *{
+//     margin: 0px;
+//     padding: 0px;
+    
+// }
+// $delete-red: red;
+
+// body {
+//   margin: 32px;
+// }
+
+// .material-icons{
+// color: white;
+// background-color: black;
+// }
+.adddata{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.submit{
+    background-color: #3f51b5;
+    color: white;
+}

@@ -1,51 +1,6 @@
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<app-pagination></app-pagination>
-    <div class="nav">
-        <p>{{message}}</p>
-    </div>
-    <table class="table table-hover">
-        <thead>
-            <th>ID</th>
-            <th>NAME</th>
-            <th>AGE</th>
-            <th>ADD</th>
-            <th>DELETE</th>
-        </thead>
-        <tbody *ngFor="let a of Persondata">
-            <tr>
-                <td>{{a.id}}</td>
-                <td>{{a.name}}</td>
-                <td>{{a.age}}</td>
-                <td (click)="toggleOn =!toggleOn"><button><mat-icon>add_circle</mat-icon></button></td>
-                <td><button (click)="deleteItem(a.id)"><mat-icon>delete</mat-icon></button></td>
-            </tr>
-        </tbody></table>
-        <table class="table table-hover">
-            <thead>
-                <th>ID</th>
-                <th>userid</th>
-                <th>title</th>
-                <th>Body</th>
-                
-            </thead>
-            <tbody *ngFor="let a of UserData">
-                <tr>
-                    <td>{{a.id}}</td>
-                    <td>{{a.userId}}</td>
-                    <td class="Hightext">{{a.title}}</td>
-                    <td class="Hightext">{{a.body}}</td>
-                   
-                </tr>
-            </tbody></table>
-     
-    <div *ngIf="toggleOn" class="adddata">
-    <form #DataAdd="ngForm" (ngSubmit)="insert(DataAdd)">   
-        <label for="id">ID:</label>
-        <input type="text" name="id"[(ngModel)]="emp.id">
-        <label for="name">NAME:</label>
-        <input type="text" name="name" [(ngModel)]="emp.name">
-        <label for="id">AGE:</label>
-        <input type="text" name="age" [(ngModel)]="emp.age">
-        <input type="submit" value="Add Data">
-    </form></div>
+<button class="abc" routerLink="/app-pagination">pagination with normsl data</button>
+<button class="abc" routerLink="/app-pagination1">pagination1 with api data</button>
+<button class="abc" routerLink="/app-pagination2">pagination1 with bootstrap background</button>
+<router-outlet></router-outlet>
+    
